@@ -1,5 +1,7 @@
 body {
     margin: 5% 5%;
+    font-size: large;
+    font-family: sans-serif;
 }
 
 h1,
@@ -7,7 +9,56 @@ h2 {
     text-align: center;
 }
 
+.images {
+    background-color: orange;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+}
+
 img {
     width: 300px;
     height: 300px;
+}
+
+.quotes {
+    background-color: rgb(255, 255, 130);
+    margin: 2%;
+    padding: 2%;
+}
+
+.description {
+    background-color: rgb(170, 205, 100);
+    margin: 2%;
+    padding: 2%;
+}
+
+.recipes {
+    background-color: rgb(255, 130, 130);
+    margin: 2%;
+    padding: 2%;
+}
+
+.ingridients {
+    background-color: rgb(255, 150, 150);
+    padding: 2%;
+}
+
+.spices {
+    background-color: rgb(255, 175, 175);
+    padding: 2%;
+}
+
+.steps {
+    background-color: rgb(255, 200, 200);
+    padding: 2%
+}
+
+.links {
+    text-align: right;
+}
+
+.links a {
+    display: block;
+    margin: 10px;
 }
